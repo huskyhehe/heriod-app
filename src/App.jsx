@@ -18,7 +18,7 @@ const viewList = [
     {
         id: 'period-facts',
         title: 'Period Facts',
-        path: '/heriod-app',
+        path: '/',
         element: <Facts />,
         sections: [
             {
@@ -38,7 +38,7 @@ const viewList = [
     {
         id: 'product-options',
         title: 'Product Options',
-        path: '/product-options',
+        path: '/heriod/product-options',
         element: <Options />,
         sections: [
             {
