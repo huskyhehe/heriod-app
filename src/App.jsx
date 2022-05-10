@@ -18,7 +18,7 @@ const viewList = [
     {
         id: 'period-facts',
         title: 'Period Facts',
-        path: '/',
+        path: '/heriod-app',
         element: <Facts />,
         sections: [
             {
@@ -114,7 +114,7 @@ function App() {
                 <Routes>
                     { viewList.map((view) => {
                         return (
-                            <Route key={view.id} exact path={`/heriod-app${view.path}`} element={view.element} />
+                            <Route key={view.id} exact path={view.path} element={view.element} />
                         )
                     })}
                 </Routes> 
