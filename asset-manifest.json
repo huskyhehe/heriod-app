@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.06d56150.css",
-    "main.js": "./static/js/main.097bef14.js",
-    "static/js/787.eee2e4a7.chunk.js": "./static/js/787.eee2e4a7.chunk.js",
-    "static/media/option-pads.jpg": "./static/media/option-pads.e5de0e5a0d8f1226a77f.jpg",
-    "static/media/option-tampons.jpg": "./static/media/option-tampons.5eb741fc125e0d5c41ad.jpg",
-    "static/media/about-hero.jpg": "./static/media/about-hero.987db6a653b05b3c83f5.jpg",
-    "static/media/hero.png": "./static/media/hero.aef6f32d627624ecfc65.png",
-    "static/media/card-swipe.gif": "./static/media/card-swipe.00d8a7cdc74398979325.gif",
-    "static/media/wireframe.png": "./static/media/wireframe.f31af9cc02e9ff06b1f8.png",
-    "static/media/option-cups.jpg": "./static/media/option-cups.a031a49b279d836261ae.jpg",
-    "static/media/favicon.png": "./static/media/favicon.f0533e0a2408354943ee.png",
-    "static/media/logo.png": "./static/media/logo.6b098e9f57f7ef6d68d0.png",
-    "index.html": "./index.html",
-    "main.06d56150.css.map": "./static/css/main.06d56150.css.map",
-    "main.097bef14.js.map": "./static/js/main.097bef14.js.map",
-    "787.eee2e4a7.chunk.js.map": "./static/js/787.eee2e4a7.chunk.js.map"
+    "main.css": "/heriod-app/static/css/main.128927ff.css",
+    "main.js": "/heriod-app/static/js/main.5fd4a0f1.js",
+    "static/js/787.eee2e4a7.chunk.js": "/heriod-app/static/js/787.eee2e4a7.chunk.js",
+    "static/media/option-pads.jpg": "/heriod-app/static/media/option-pads.e5de0e5a0d8f1226a77f.jpg",
+    "static/media/option-tampons.jpg": "/heriod-app/static/media/option-tampons.5eb741fc125e0d5c41ad.jpg",
+    "static/media/about-hero.jpg": "/heriod-app/static/media/about-hero.987db6a653b05b3c83f5.jpg",
+    "static/media/hero.png": "/heriod-app/static/media/hero.aef6f32d627624ecfc65.png",
+    "static/media/card-swipe.gif": "/heriod-app/static/media/card-swipe.00d8a7cdc74398979325.gif",
+    "static/media/wireframe.png": "/heriod-app/static/media/wireframe.f31af9cc02e9ff06b1f8.png",
+    "static/media/option-cups.jpg": "/heriod-app/static/media/option-cups.a031a49b279d836261ae.jpg",
+    "static/media/favicon.png": "/heriod-app/static/media/favicon.f0533e0a2408354943ee.png",
+    "static/media/logo.png": "/heriod-app/static/media/logo.6b098e9f57f7ef6d68d0.png",
+    "index.html": "/heriod-app/index.html",
+    "main.128927ff.css.map": "/heriod-app/static/css/main.128927ff.css.map",
+    "main.5fd4a0f1.js.map": "/heriod-app/static/js/main.5fd4a0f1.js.map",
+    "787.eee2e4a7.chunk.js.map": "/heriod-app/static/js/787.eee2e4a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06d56150.css",
-    "static/js/main.097bef14.js"
+    "static/css/main.128927ff.css",
+    "static/js/main.5fd4a0f1.js"
   ]
 }
