@@ -1,0 +1,263 @@
+.tracker__wrapper {
+    background: #f2f1ff;  
+    display: flex;
+    flex-direction: column;
+}
+
+.tracker__hero {
+    text-align: center;
+    padding: 2rem 2.5rem 0;
+    line-height: 1.75rem;
+}
+
+.tracker__hero h1 {
+    margin-bottom: 0; 
+}
+
+.tracker__hero h3 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    color: #8a64eb;
+}
+
+.tracker__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 72vw;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.tracker__question {
+    font-weight: bold; 
+    margin-top: 1.75rem;
+    margin-bottom: 0;
+}
+
+.date__input {
+    padding: 0 1rem;
+    margin-top: .75rem;
+    font-size: 1rem;  
+    border-color: #8a64eb;
+}
+
+.date__input,
+.track__submit {
+    height: 3rem;
+    width: inherit;
+    text-align: center;  
+    border-radius: 1.5rem;
+}
+
+.counter {
+    display: flex;  
+    align-items: center;
+    margin-top: .75rem;
+}
+
+.decrement__button,
+.increment__button {
+    height: 3rem;
+    padding: 0 1rem;
+}
+
+/* From https://www.unicode.org/charts/PDF/U2700.pdf, Unicode License: https://www.unicode.org/license.txt */
+.decrement__button::after {
+    content: '\2796';
+}
+
+/* From https://www.unicode.org/charts/PDF/U2700.pdf, Unicode License: https://www.unicode.org/license.txt */
+.increment__button::after {
+    content: '\2795';
+}
+
+.counter__display {
+    display: inline-block;
+    height: 3rem;
+    width: 12rem;
+    margin: 0;
+    text-align: center;
+    line-height: 3rem;
+    font-weight: bold;
+    background: white;
+}
+
+.track__submit {
+    height: 3rem;
+    width: inherit;
+    margin-top: 3rem;
+    font-size:1.25rem;
+    font-weight: bold;
+    border: none;
+    color:white;
+    background-color:#8a64eb;
+}
+
+.track__submit:hover {
+    background-color:#6a45c7;
+}
+
+.track__submit:disabled {
+    color:rgb(110, 110, 110);
+    background-color: lightgray;
+}
+
+.tip {
+    font-size: .8rem;
+    margin: 0;
+    margin-top: .3rem;
+}
+
+/* From https://css.gg/spinner, The MIT License (MIT): https://css.gg/doc/licence */
+.gg-spinner {
+    transform: scale(var(--ggs,2));
+    margin: 1rem auto 6rem;
+}
+   
+.gg-spinner,
+.gg-spinner::after,
+.gg-spinner::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px
+}
+   
+.gg-spinner::after,
+.gg-spinner::before {
+    content: "";
+    position: absolute;
+    border-radius: 100px;
+}
+   
+.gg-spinner::before {
+    animation: spinner 1s
+    cubic-bezier(.6,0,.4,1) infinite;
+    border: 3px solid transparent;
+    border-top-color: currentColor;
+}
+   
+.gg-spinner::after {
+    border: 3px solid;
+    opacity: .2;
+}
+   
+@keyframes spinner {
+    0% { transform: rotate(0deg) }
+    to { transform: rotate(359deg) }
+}
+
+.input__summary h3,
+.prediction h3 {
+    margin: 1rem 0 1rem;
+}
+
+.prediction h3 {
+    margin: 1rem 0 0;
+}
+
+.prediction__tip {
+    width: 80vw;
+    font-size: .8rem;
+    margin-top: .25rem;
+}
+
+.input__summary,
+.prediction {
+    margin: auto auto 3rem;
+    padding: 0 0 0 10vw;
+}
+
+.summary__list,
+.prediction__list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-right: 10vw;
+}
+
+.summary__bullet,
+.prediction__bullet {
+    display: flex;
+    flex-direction: column;
+    width: 9rem;  
+    flex: none;   
+    padding: 1rem;   
+    border-radius: 1rem;
+    box-shadow: 0px 15px 10px -15px lightgray; 
+}
+
+.summary__bullet {
+    height: 8rem;
+    background: linear-gradient(to bottom right, #8a64eb48, #96c8fb48); 
+}
+
+.prediction__bullet {
+    height: 10rem;
+    vertical-align: middle;
+    margin-bottom: 2rem;
+    background: linear-gradient(to bottom right, #8a64eb, #96c8fb); 
+}
+
+.bullet__label,
+.bullet__content {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.bullet__content {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+
+.date__label {
+    color: white;
+    margin: auto 0;
+}
+
+.date__text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    margin: .1rem 0;
+}
+
+/* From https://www.unicode.org/charts/PDF/U2300.pdf, Unicode License: https://www.unicode.org/license.txt */
+.arrow__icon::before {
+    content: '\23EC';
+    font-size: 1.2rem;
+    margin: .75rem 2.5rem;
+}
+
+
+@media (min-width: 700px) {
+    
+    .tracker__report {
+        display: grid;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .input__summary,
+    .prediction { 
+        display: grid;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .summary__list,
+    .prediction__list {
+        display: grid;
+        grid-auto-flow: column;
+        grid-row: 3fr;
+        gap: 1rem;
+        overflow-x: unset;
+        padding-right: 0;
+    }
+
+    .prediction__tip {
+        width: auto;
+    }
+}

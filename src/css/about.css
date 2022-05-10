@@ -1,0 +1,74 @@
+.section__our-mission,
+.section__pain-point,
+.section__period-shame-in-china,
+.section__contact-us {
+    padding: 2rem 2.5rem 3.5rem;
+    line-height: 1.75rem;
+    white-space: pre-line;
+}
+
+.about__hero {
+    min-height: 60vh;
+    background: url(../assets/about-hero.jpg) #8a64eb30 no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+}
+
+.section__pain-point,
+.section__contact-us {
+    background: #f2f1ff;
+}
+
+.about__title {
+    max-width: 20rem;
+    height: min-content;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-right: 5rem;
+    padding: 2.5rem;
+    line-height: 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom-right-radius: 5rem;
+}
+
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+}
+
+.contact__item {
+    width: 12rem;
+    margin: auto;
+}
+
+.contact__list h3 {
+    color: rgb(50, 50, 50);
+    margin-bottom: 0;
+}
+
+.contact__list p {
+    color: #8a64eb;
+}
+
+
+@media (min-width: 480px) {
+
+    .about__title {
+        font-size: 2rem;
+        padding: 3rem;
+        line-height: 3rem;
+        margin-left: 10vw;
+    }
+    .contact__list {  
+        width: max-content;  
+        flex-direction: row;
+        gap: 5rem;
+        margin: auto;
+    }
+
+    .contact__item {
+        margin: auto;
+    }
+}    

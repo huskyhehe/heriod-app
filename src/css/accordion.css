@@ -1,0 +1,67 @@
+.accordion { 
+    display: flex;
+    flex-direction: column;
+  
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 40rem;
+    border: 1px solid lightgray;
+    border-bottom: none;   
+}
+  
+.accordion__title { 
+    position: relative; 
+    display: inline-block;
+    
+    width: 100%;
+    padding: 1rem;
+    padding-right: 3rem;
+    border: none;
+    border-bottom: 1px solid rgb(180, 180, 180);
+  
+    background-color: white;
+    font: inherit;
+    font-weight: bold;
+    text-align: left;
+}
+  
+.accordion__title::after { 
+    position: absolute;
+    right: 1rem;
+    top: calc(50% - 1ch);
+}
+
+/* From https://www.unicode.org/charts/PDF/U0000.pdf, Unicode License: https://www.unicode.org/license.txt */
+.accordion__title::after { 
+    content: "\2795";
+}
+
+.accordion__title--open {
+    background: #8a64eb38;
+}
+
+/* From https://www.unicode.org/charts/PDF/U2200.pdf, Unicode License: https://www.unicode.org/license.txt */
+.accordion__entry--open .accordion__title::after { 
+    content: "\2796";
+}
+  
+.accordion__body { 
+    display: none;  
+    padding: 2rem;
+    line-height: 1.75rem;
+    background: white;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+  
+.accordion__entry--open .accordion__body { 
+    display: block;
+    transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .accordion__entry--open .accordion__body {
+        animation: none;
+    }
+}
+  

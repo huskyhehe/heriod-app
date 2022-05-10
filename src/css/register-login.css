@@ -1,0 +1,94 @@
+.register__wrapper,
+.login__wrapper {
+    background: #f2f1ff;  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 72vw;    
+    padding: 2rem;
+    margin: 4rem auto 2rem;
+    background: white;
+    border-radius: .5rem;
+}
+
+.form__content label { 
+    margin-bottom: .5rem;
+}
+
+.account__input,
+.register__submit,
+.login__submit {       
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+.account__input {
+    padding: .7rem 1rem;
+    border: 1px solid gray;
+    margin-bottom: .75rem;
+}
+
+.register__submit,
+.login__submit {
+    padding: .75rem 1rem;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.register__submit {
+    background: #a582ff; 
+}
+
+.login__submit {
+    background: #71abe4;
+}
+
+.register__submit:hover,
+.register__submit:focus-within,
+.register__submit:active {
+    cursor: pointer;
+    background: #8a64eb;
+}
+
+.login__submit:hover,
+.login__submit:active {
+    cursor: pointer;
+    background: #3a88d5;
+}
+
+.register__submit:disabled,
+.login__submit:disabled {
+    background: gray;
+}
+
+.skip__option,
+.msg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.skip__option {
+    font-size: 0.8rem;
+}
+
+.redirect__link {
+    color: #8a64eb;
+    font-weight: bold;
+    margin-left: .4rem;
+}
+
+
+@media (min-width: 600px) {
+    .form__content {
+        width: 16rem;
+    }
+}

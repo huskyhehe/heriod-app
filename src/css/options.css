@@ -1,0 +1,142 @@
+.options__summary,
+.section__sanitary-pads,
+.section__tampons,
+.section__menstrual-cups {
+    padding: 2rem 2.5rem 3.5rem;
+    line-height: 1.75rem;
+    white-space: pre-line;
+}
+
+.options__summary {
+    background: #f2f1ff;
+}
+
+.section__tampons {
+    background: #f2f1ff;
+}
+
+.summary__title,
+.option__title {
+    text-align: center;
+    line-height: 3rem;
+}
+
+.option__img__pad {
+    display: flex;
+    margin: 2rem auto;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 100%;
+    box-shadow: 0px 15px 10px -15px lightgray; 
+}
+
+.option__img__web {
+    display: none;
+}
+
+.subtitle {
+    line-height: 0;
+    padding-top: .5rem;
+}
+
+.tabs__wrapper {
+    margin: 2rem auto;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+}
+  
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+    box-shadow: 0px 15px 10px -15px lightgray;
+}
+
+.tabitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 15rem;
+    height: 4rem;
+    line-height: 1.2rem;
+    border: none;
+    background: none;
+    align-items: center;
+    font-weight: bold;
+    color: #8a64eb;
+    border-bottom: 3px solid #8a64ebd0;  
+}
+
+.tabitem--inactive {
+    color: darkgray;
+    border-bottom: none;
+}
+
+.tabitem--inactive:hover {
+    color:#8a64eb88;
+}
+
+.tabitem__content {
+    height: max-content;
+    padding: 2rem;
+    color: #565656;
+    line-height: 1.75rem;
+}
+
+
+@media (min-width: 480px) and (max-width: 850px) {
+    .option__detail {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .option__img__pad {
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+        height: 20vw;
+        width: 20vw;
+    }
+}
+
+
+@media (min-width: 850px) {
+    .options__summary,
+    .section__sanitary-pads,
+    .section__tampons,
+    .section__menstrual-cups {
+        line-height: 1.75rem;
+    }
+
+    .summary__content,
+    .option__content {
+        max-width: 60vw;
+        margin: auto;
+    }
+
+    .option__detail {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .option__img__pad {
+        display: none;
+    }
+
+    .option__img__web {
+        display: block;
+        margin-top: 3rem;
+        margin-left: 3rem;
+        height: 20vw;
+
+        border-radius: 10rem;   
+    }
+
+    .tabs__wrapper {
+        max-width: 60vw;        
+    }
+
+    .tabitem {
+        font-size: 1rem;
+    }
+}    

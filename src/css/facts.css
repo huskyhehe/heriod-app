@@ -1,0 +1,121 @@
+.hero {
+    display: flex;
+    background: linear-gradient(to bottom right, #8a64eb, #96c8fb); 
+}
+
+.hero__wrapper {
+    display:flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 3rem auto;
+}
+
+.hero__title {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    line-height: 3rem;
+}
+
+.hero__title h1 {
+    font-size: 3rem;
+    margin: .5rem 0 0;
+    line-height: 2.5rem;
+}
+
+.hero__title h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero__title h3 {
+    width: max-content;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    margin: 0;
+    margin-top: 1.5rem;    
+    border-top: .5px dashed white;
+    font-style: italic;
+}
+
+.hero__img {
+    width:80vw;
+    margin: 2rem auto 0.5rem;
+}
+
+.section__menstruation,
+.section__menstrual-cycle,
+.section__typical-length,
+.section__faq-for-teens {
+    padding: 2rem 2.5rem 3.5rem;    
+}
+
+.section__menstrual-cycle,
+.section__faq-for-teens {
+    background: #f2f1ff;
+
+}
+
+.section__content {
+    line-height: 1.75rem;
+    white-space: pre-line;
+}
+
+.section__title {
+    text-align: center;
+}
+
+
+@media (min-width: 480px) {
+    .hero__wrapper {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero__title {  
+        margin: 0 auto 0 0;
+        vertical-align: middle;
+    }
+    
+    .hero__img {
+        width: 40vw;
+        height: auto;
+        margin: 2rem 0 2rem 1rem;
+    }
+   
+    .section__content {
+        width: 80vw;
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 900px) {
+
+    .hero__wrapper {
+        width: 70vw;
+    }    
+
+    .section__content {
+        width: 60vw;
+    }
+
+    .hero__title h2 {
+        font-size: 3rem;
+    }
+
+    .hero__title h1 {    
+        font-size: 4.5rem;
+        margin-top: 2rem;
+    }
+
+    .hero__title h3 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .hero__img {
+        width: 40vw;
+        height: auto;
+    }
+}

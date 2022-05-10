@@ -1,0 +1,36 @@
+.privacy__hero {
+    margin: auto auto 0;
+    padding: 2rem 2.5rem 0;
+}
+
+.privacy__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2.5rem 3.5rem;
+    line-height: 1.75rem;
+    white-space: pre-line;
+}
+
+.privacy__wrapper {
+    margin: auto auto 5rem;
+}
+
+.privacy__hero h4 {
+    margin-bottom: 0;
+}
+
+.privacy__wrapper h2 {
+    margin-top: 3rem;
+}
+
+.privacy__wrapper p {
+    line-height: 1.75rem;    
+}
+
+
+@media (min-width: 850px) {
+    .privacy__hero,
+    .privacy__wrapper { 
+        width: 60vw;
+    }
+}
