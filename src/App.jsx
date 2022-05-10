@@ -18,7 +18,7 @@ const viewList = [
     {
         id: 'period-facts',
         title: 'Period Facts',
-        path: '/',
+        path: 'heriod-app/',
         element: <Facts />,
         sections: [
             {
