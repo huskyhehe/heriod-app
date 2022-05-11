@@ -18,7 +18,7 @@ const viewList = [
     {
         id: 'period-facts',
         title: 'Period Facts',
-        path: '',
+        path: 'heriod-app',
         element: <Facts />,
         sections: [
             {
@@ -38,7 +38,7 @@ const viewList = [
     {
         id: 'product-options',
         title: 'Product Options',
-        path: '/product-options',
+        path: 'heriod-app/product-options',
         element: <Options />,
         sections: [
             {
@@ -58,14 +58,14 @@ const viewList = [
     {
         id: 'tracker',
         title: 'Tracker',
-        path: '/tracker',
+        path: 'heriod-app/tracker',
         element: <Tracker />,
         sections: [],
     },
     {
         id: 'about',
         title: 'About',
-        path: '/about',
+        path: 'heriod-app/about',
         element: <About />,
         sections: [
             {
@@ -85,21 +85,21 @@ const viewList = [
     {
         id: 'privacy',
         title: 'Privacy',
-        path: '/privacy',
+        path: 'heriod-app/privacy',
         element: <Privacy />,
         sections: [],
     },
     {
         id: 'register',
         title: 'Register',
-        path: '/register',
+        path: 'heriod-app/register',
         element: <Register />,
         sections: [],
     },
     {
         id: 'login',
         title: 'Login',
-        path: '/login',
+        path: 'heriod-app/login',
         element: <Login />,
         sections: [],
     },
@@ -114,7 +114,7 @@ function App() {
                 <Routes>
                     { viewList.map((view) => {
                         return (
-                            <Route key={view.id} exact path={`heriod-app${view.path}`} element={view.element} />
+                            <Route key={view.id} exact path={view.path} element={view.element} />
                         )
                     })}
                 </Routes> 
