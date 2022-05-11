@@ -68,7 +68,7 @@ function Header( {menu} ) {
                     })}
                     <li className="menu__item">
                         <Link
-                            to="/register"  
+                            to="heriod-app/register"  
                             className="menu__register__link" 
                             onClick={ () => closeMenu()}
                         >
