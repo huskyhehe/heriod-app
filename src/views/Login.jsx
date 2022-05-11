@@ -92,7 +92,7 @@ function Login() {
 
                     <div className="skip__option">
                         <p>Haven't Registered? Go to</p>
-                        <Link to='heriod-app/register' className="redirect__link">Register</Link>
+                        <Link to='/heriod-app/register' className="redirect__link">Register</Link>
                     </div>
                 </form>
 
@@ -101,14 +101,14 @@ function Login() {
                 { successMsg && 
                 <div className="msg">
                     <p>{successMsg}</p>
-                    <Link to='heriod-app' className="redirect__link">Homepage</Link>
+                    <Link to='/heriod-app' className="redirect__link">Homepage</Link>
                 </div>
                 }
                 { errorMsg && 
                 <div className="msg">
                     <p className="msg__text">{errorMsg}</p>
                     { errorMsg.includes('No such') &&
-                    <Link to='heriod-app/register' className="redirect__link">Register</Link>}
+                    <Link to='/heriod-app/register' className="redirect__link">Register</Link>}
                 </div>
                 }          
             </div>            

@@ -18,7 +18,7 @@ const viewList = [
     {
         id: 'period-facts',
         title: 'Period Facts',
-        path: 'heriod-app',
+        path: '/heriod-app',
         element: <Facts />,
         sections: [
             {
@@ -58,14 +58,14 @@ const viewList = [
     {
         id: 'tracker',
         title: 'Tracker',
-        path: 'heriod-app/tracker',
+        path: '/heriod-app/tracker',
         element: <Tracker />,
         sections: [],
     },
     {
         id: 'about',
         title: 'About',
-        path: 'heriod-app/about',
+        path: '/heriod-app/about',
         element: <About />,
         sections: [
             {
@@ -85,21 +85,21 @@ const viewList = [
     {
         id: 'privacy',
         title: 'Privacy',
-        path: 'heriod-app/privacy',
+        path: '/heriod-app/privacy',
         element: <Privacy />,
         sections: [],
     },
     {
         id: 'register',
         title: 'Register',
-        path: 'heriod-app/register',
+        path: '/heriod-app/register',
         element: <Register />,
         sections: [],
     },
     {
         id: 'login',
         title: 'Login',
-        path: 'heriod-app/login',
+        path: '/heriod-app/login',
         element: <Login />,
         sections: [],
     },
