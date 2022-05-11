@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/heriod-app/static/css/main.128927ff.css",
-    "main.js": "/heriod-app/static/js/main.9980b92b.js",
+    "main.js": "/heriod-app/static/js/main.01cbf2e9.js",
     "static/js/787.eee2e4a7.chunk.js": "/heriod-app/static/js/787.eee2e4a7.chunk.js",
     "static/media/option-pads.jpg": "/heriod-app/static/media/option-pads.e5de0e5a0d8f1226a77f.jpg",
     "static/media/option-tampons.jpg": "/heriod-app/static/media/option-tampons.5eb741fc125e0d5c41ad.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.png": "/heriod-app/static/media/logo.6b098e9f57f7ef6d68d0.png",
     "index.html": "/heriod-app/index.html",
     "main.128927ff.css.map": "/heriod-app/static/css/main.128927ff.css.map",
-    "main.9980b92b.js.map": "/heriod-app/static/js/main.9980b92b.js.map",
+    "main.01cbf2e9.js.map": "/heriod-app/static/js/main.01cbf2e9.js.map",
     "787.eee2e4a7.chunk.js.map": "/heriod-app/static/js/787.eee2e4a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.128927ff.css",
-    "static/js/main.9980b92b.js"
+    "static/js/main.01cbf2e9.js"
   ]
 }
