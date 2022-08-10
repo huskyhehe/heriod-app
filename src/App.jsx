@@ -18,12 +18,13 @@ const viewList = [
     {
         id: 'period-facts',
         title: 'Period Facts',
-        path: 'heriod-app',
+        path: '/',
         element: <Facts />,
         sections: [
             {
                 id: 'menstruation',
                 title: 'Menstruation',
+                path: '/',
             },
             {
                 id: 'menstrual-cycle',
@@ -38,16 +39,18 @@ const viewList = [
     {
         id: 'product-options',
         title: 'Product Options',
-        path: 'heriod-app/product-options',
+        path: '/product-options',
         element: <Options />,
         sections: [
             {
                 id: 'sanitary-pads',
                 title:'Sanitary Pads',
+                path:'/product-options',
             },
             {
                 id: 'tampons',
                 title: 'Tampons',
+                path: '/product-options',
             },
             {
                 id: 'menstrual-cups',
@@ -58,14 +61,14 @@ const viewList = [
     {
         id: 'tracker',
         title: 'Tracker',
-        path: 'heriod-app/tracker',
+        path: '/tracker',
         element: <Tracker />,
         sections: [],
     },
     {
         id: 'about',
         title: 'About',
-        path: 'heriod-app/about',
+        path: '/about',
         element: <About />,
         sections: [
             {
@@ -85,21 +88,21 @@ const viewList = [
     {
         id: 'privacy',
         title: 'Privacy',
-        path: 'heriod-app/privacy',
+        path: '/privacy',
         element: <Privacy />,
         sections: [],
     },
     {
         id: 'register',
         title: 'Register',
-        path: 'heriod-app/register',
+        path: '/register',
         element: <Register />,
         sections: [],
     },
     {
         id: 'login',
         title: 'Login',
-        path: 'heriod-app/login',
+        path: '/login',
         element: <Login />,
         sections: [],
     },

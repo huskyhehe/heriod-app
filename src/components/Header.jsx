@@ -27,7 +27,7 @@ function Header( {menu} ) {
             <a className="skip__link" href='#main'>Skip to content</a>
 
             <div className="header__content">
-                <Link to="/heriod-app" className="logo">
+                <Link to="/" className="logo">
                     <img className="logo__img" src={logo} alt="logo" />
                 </Link>
                 <button
@@ -68,7 +68,7 @@ function Header( {menu} ) {
                     })}
                     <li className="menu__item">
                         <Link
-                            to="heriod-app/register"  
+                            to="/register"  
                             className="menu__register__link" 
                             onClick={ () => closeMenu()}
                         >

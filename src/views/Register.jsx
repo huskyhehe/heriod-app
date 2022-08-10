@@ -102,7 +102,7 @@ function Register() {
 
                     <div className="skip__option">
                         <p className="skip__text">Already Registered? Go to</p>
-                        <Link to='heriod-app/login' className="redirect__link">Log in</Link>
+                        <Link to='/login' className="redirect__link">Log in</Link>
                     </div>      
                 </form>
 
@@ -111,14 +111,14 @@ function Register() {
                 { successMsg && 
                 <div className="msg">
                     <p className="msg__text">{successMsg}</p>
-                    <Link to='heriod-app/login' className="redirect__link">Login</Link>
+                    <Link to='/login' className="redirect__link">Login</Link>
                 </div>
                 }                     
                 { errorMsg && 
                 <div className="msg">
                     <p className="msg__text">{errorMsg}</p>
                     { errorMsg.includes('exists') &&
-                    <Link to='heriod-app/login' className="redirect__link">Login</Link> 
+                    <Link to='/login' className="redirect__link">Login</Link> 
                     }
                 </div>
                 }   
