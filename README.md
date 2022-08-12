@@ -1,8 +1,7 @@
-# Heriod
-> Menstruaction tracking app created with Node.js and React.
-> Live demo here: **[_Heriod demo_](https://huskyhehe.github.io/heriod-app/)**.
-
 <img src = "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/favicon.png?raw=true" height=30> &emsp;  <img src= "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/logo.png?raw=true" height=28>
+> Menstruation tracking app created with Node.js and React.
+> <br/>Live demo here: **[_Heriod demo_](https://huskyhehe.github.io/heriod-app/)**.
+
 
 
 
@@ -13,7 +12,7 @@ The topic is about **menstruation period**, aiming to empower girls and women wi
 <br/>
 The App includes **7** views, which can be divided into **3** categories:
 - **Information display**: Period Facts, Product Options, About, Privacy
-- **Account Sevices**: Register, Login
+- **Account Services**: Register, Login
 - **Calculation Tools**: Tracker
 <br/>
 
@@ -65,23 +64,23 @@ The top level directory structure is as follows:
 <br />
 
 ## 5 Licenses & References
-### 5.1 Images Licences
-| Image Name | Lisence | Original Source
+### 5.1 Images Licenses
+| Image Name | License | Original Source
 |-----|-----|-----|
 |`favicon.png`<br />`logo.png`| Self-designed | - |
-|`hero.png`<br />`about-hero.jpg`|[Pexels Lisence](https://www.pexels.com/license/) |  https://www.pexels.com/photo/women-sitting-on-brown-sofa-5793913/<br />https://www.pexels.com/photo/photo-of-women-sitting-on-orange-sofa-3810832/ |
-|`option-pads.jpg`<br />`option-tampons.jpg`|[Pexels Lisence](https://www.pexels.com/license/) | https://www.pexels.com/photo/person-holding-white-and-pink-floral-textile-7692336/<br />https://www.pexels.com/photo/a-three-tampon-on-pink-surface-7691980/ |
-|`option-cups.jpg`|[Pixabay Lisence](https://pixabay.com/service/license/) | https://pixabay.com/photos/cup-menstrual-menstruation-rule-3137097/ |
+|`hero.png`<br />`about-hero.jpg`|[Pexels License](https://www.pexels.com/license/) |  https://www.pexels.com/photo/women-sitting-on-brown-sofa-5793913/<br />https://www.pexels.com/photo/photo-of-women-sitting-on-orange-sofa-3810832/ |
+|`option-pads.jpg`<br />`option-tampons.jpg`|[Pexels License](https://www.pexels.com/license/) | https://www.pexels.com/photo/person-holding-white-and-pink-floral-textile-7692336/<br />https://www.pexels.com/photo/a-three-tampon-on-pink-surface-7691980/ |
+|`option-cups.jpg`|[Pixabay License](https://pixabay.com/service/license/) | https://pixabay.com/photos/cup-menstrual-menstruation-rule-3137097/ |
 
 ### 5.2 Icon Licenses
-| Icon Name | Lisence | Original Source
+| Icon Name | License | Original Source
 |-----|-----|-----|
 | `gg-spinner`<br />`gg-menu`<br />`gg-close` | [The MIT License (MIT)](https://css.gg/doc/licence)<br />Copyright © 2019-2020 css.gg | https://css.gg/spinner<br />https://css.gg/menu<br />https://css.gg/close |
 | `/2795`<br />`/2796`<br />`/23EC` | [Unicode License](https://www.unicode.org/license.txt)<br />Copyright © 1991-2022 Unicode, Inc. | https://www.unicode.org/charts/PDF/U2700.pdf<br />https://www.unicode.org/charts/PDF/U2300.pdf |
 
 
 ### 5.3 React Libraries and Services
-| Library | Lisence | Original Source
+| Library | License | Original Source
 |-----|-----|-----|
 | `react-router-dom` | [The MIT License (MIT)](https://github.com/remix-run/react-router/blob/main/LICENSE.md) <br />Copyright (c) React Training 2015-2019<br />Copyright (c) Remix Software 2020-2021 | https://github.com/remix-run/react-router |
 | `fake-services.js` | The MIT License (MIT) <br />Original Copyright Brett Ritter, 2021 | `./fake-services` |
