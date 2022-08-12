@@ -1,17 +1,21 @@
-# <img src = "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/favicon.png?raw=true" height=40> &ensp;  <img src="https://github.com/huskyhehe/heriod-app/blob/main/src/assets/logo.png?raw=true" height=40>
+# Heriod - Menstruation Tracker
 > Menstruation tracking app created with Node.js and React.
-> <br/>Live demo here: **[_Heriod demo_](https://huskyhehe.github.io/heriod-app/)**.
+> <br/>Live demo here: https://huskyhehe.github.io/heriod-app/.
+
+
+# <img src = "./src/assets/favicon.png" height=40> &ensp;  <img src="./src/assets/logo.png?raw=true" height=40>
+
 
 ## Table of Contents
-* [1 General Info](#1-general-info)
+* [1 General Intro](#1-general-intro)
 * [2 Technologies Used](#2-technologies-used)
-* [3 File Structure](#file-structure)
-* [4 WireFrames](#wireframes)
-* [5 Key Features](#key-features)
-* [6 Screenshots](#screenshots)
-* [7 Setup](#setup)
-* [8 Licenses & References](#setup)
-* [9 Room for Improvement](#room-for-improvement)
+* [3 File Structure](#3-file-structure)
+* [4 WireFrames](#4-wireframes)
+* [5 Key Features](#5-key-features)
+* [6 Screenshots](#6-screenshots)
+* [7 Setup](#7-setup)
+* [8 Licenses and References](#8-licenses-and-references)
+* [9 Room for Improvement](#9-room-for-improvement)
 
 
 ## 1 General Intro
@@ -57,11 +61,12 @@ The top level directory structure is as follows:
 <br/>
 
 ## 4 Wireframes
-<img src='https://github.com/huskyhehe/heriod-app/blob/main/src/assets/wireframe.png?raw=true' title='wireframe' width='1000' alt='wireframe' />
+<img src='./src/assets/wireframe.png' title='wireframe' width='1000' alt='wireframe' />
 
 <br/>
 
-## 5 Key Required Features
+## 5 Key Features
+Features below are required for the INFO6150 final project.
 
 ### 5.1 Forms
 - **Tracker**: 1 date input
@@ -84,11 +89,28 @@ The top level directory structure is as follows:
 - **Login**: when click the "Log in" button
 
 ### 5.5 Special Layout for Mobiles
-- **Tracker**: the generated report could be swiped back and forth on mobiles
-<img src='https://github.com/seainfo6150/student--huskyhehe/blob/final/final/heriod/src/assets/card-swipe.gif' title='card swipe' width='250' alt='card swipe' />  
+- **Tracker**: the generated report could be swiped back and forth on mobiles.
+
+<img src='./src/assets/card-swipe.gif' title='card swipe' width='250' alt='card swipe' />
+
 <br />
 
-## 8 Licenses & References
+## 6 Screenshots
+to be added
+
+<br />
+
+## 7 Setup
+To run this project, install it locally using npm:
+```
+npm install
+npm run build
+npm start
+```
+
+<br />
+
+## 8 Licenses and References
 ### 8.1 Images Licenses
 | Image Name | License | Original Source
 |-----|-----|-----|
