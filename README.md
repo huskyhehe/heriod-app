@@ -1,9 +1,15 @@
-# Final Project - Heriod
+# Heriod
+> Menstruaction tracking app created with Node.js and React.
+> Live demo here: **[_Heriod demo_](https://huskyhehe.github.io/heriod-app/)**.
+
+<img src = "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/favicon.png?raw=true" height=30> &emsp;  <img src= "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/logo.png?raw=true" height=28>
+
+
 
 ## 1 Intro
 This project is a single-page application (SPA) built with React.  
 <br/>
-The topic is about **menstruation period**, aiming to empower girls and women with knowledge and values towards their "periods" via the menstration wiki and the period tracker.  
+The topic is about **menstruation period**, aiming to empower girls and women with knowledge and values towards their "periods" via the menstruation wiki and the period tracker.  
 <br/>
 The App includes **7** views, which can be divided into **3** categories:
 - **Information display**: Period Facts, Product Options, About, Privacy
@@ -28,7 +34,7 @@ The top level directory structure is as follows:
 <br/>
 
 ## 3 Wireframes
-<img src='https://github.com/seainfo6150/student--huskyhehe/blob/final/final/heriod/src/assets/wireframe.png' title='wireframe' width='1000' alt='wireframe' />  
+<img src='https://github.com/huskyhehe/heriod-app/blob/main/src/assets/wireframe.png?raw=true' title='wireframe' width='1000' alt='wireframe' />
 <br/>
 
 ## 4 Key Required Features
