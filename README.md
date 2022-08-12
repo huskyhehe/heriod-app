@@ -1,4 +1,4 @@
-<img src = "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/favicon.png?raw=true" height=30> &emsp;  <img src= "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/logo.png?raw=true" height=28>
+# <img src = "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/favicon.png?raw=true" height=30> &emsp;  <img src= "https://github.com/huskyhehe/heriod-app/blob/main/src/assets/logo.png?raw=true" height=28>
 > Menstruation tracking app created with Node.js and React.
 > <br/>Live demo here: **[_Heriod demo_](https://huskyhehe.github.io/heriod-app/)**.
 
