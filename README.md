@@ -109,6 +109,7 @@ npm install
 npm run build
 npm start
 ```
+Visit url http://localhost:3000/.
 
 <br />
 
