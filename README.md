@@ -1,9 +1,10 @@
-# Heriod - Menstruation Tracker
+# Heriod - menstruation tracker
 > Menstruation tracking app created with Node.js and React.
 > <br/>Live demo here: https://huskyhehe.github.io/heriod-app/.
 
+<br/>
 
-# <img src = "./src/assets/favicon.png" height=40> &ensp;  <img src="./src/assets/logo.png?raw=true" height=40>
+<img src = "./src/assets/favicon.png" height=40> &ensp;  <img src="./src/assets/logo.png?raw=true" height=40>
 
 
 ## Table of Contents
@@ -17,6 +18,7 @@
 * [8 Licenses and References](#8-licenses-and-references)
 * [9 Room for Improvement](#9-room-for-improvement)
 
+<br/>
 
 ## 1 General Intro
 This project is a single-page application (SPA) built with React.  
