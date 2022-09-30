@@ -98,7 +98,10 @@ Features below are required for the INFO6150 final project.
 <br />
 
 ## 6 Screenshots
-to be added
+<img src='./screenshots/facts.jpg' alt='facts' />
+<img src='./screenshots/products.jpg' alt='products' />
+<img src='./screenshots/tracker.jpg' alt='tracker' />
+<img src='./screenshots/about.jpg' alt='about' />
 
 <br />
 
